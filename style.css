@@ -1,0 +1,221 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+.html-id{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(brown_pastel_abstract_wavey_background_with_leaves.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    overflow: auto;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.ul-nav {
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.li-nav {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.li-nav :hover{
+    background-color: #A52A2A;
+}
+
+.a-nav {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto; 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    Display: Flex;
+    Justify-Content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+h2 {
+    font-family:poppins ,sans-serif;
+    font-weight: 600;
+    Display: Flex;
+    Justify-Content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.text-id{
+    position: relative;
+    color: #A52A2A;
+    font-size: 60px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+
+
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+   100%{
+        left: 0%;
+    }
+}
+
+/* font-family:poppins ,sans-serif;
+    font-weight: 600;
+    Justify-Content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;*/
+.isi-id{
+    font-family: poppins, sans-serif;   
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    color: aliceblue;
+    bottom: 9;
+    font-weight: 600;
+}
+
+
+
+.span-1{
+    color:  #A52A2A;
+}
+
+.span-hiji{
+    color: #A52A2A;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.about-id {
+    overflow: auto;
+}
+
+/*
+.gambar-id {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+
+.img-1{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+.gambar-2{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; .
+    overflow: hidden;
+    margin: 2;
+}
+
+.img-2{
+    width: 100%;
+    height: 100%; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+*/
+
+.img-id{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-euy{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.social-bar{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+
+.instagram-link {
+display: block;
+text-decoration: none;
+margin: 100px;
+margin-bottom: 10px;
+}
+
+.instagram-logo {
+width: 150px; /* Sesuaikan dengan lebar logo yang diinginkan */
+height: auto; /* Untuk menjaga aspek gambar */
+margin: 0 auto 10px;
+}
+
+.contact-text {
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+  }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header, nav, section, footer {
+      padding: 10px;}
+    }
+
+
+
+ 
+
+  
+
