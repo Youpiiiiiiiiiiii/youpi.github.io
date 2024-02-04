@@ -183,6 +183,7 @@ align-items: center;
 justify-content: center;
 height: 100vh;
 margin: 0;
+    flex-direction: column;
 }
 
 .instagram-link {
@@ -202,6 +203,7 @@ margin: 0 auto 10px;
     font-family: poppins, sans-serif;
     font-size: 18px;
     color: aliceblue;
+    flex-direction: column;
   }
 
 
